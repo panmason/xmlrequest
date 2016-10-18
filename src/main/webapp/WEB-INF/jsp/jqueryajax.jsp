@@ -46,7 +46,8 @@
                         </div>
                     </div>
                     <div class="row" style="margin-top: 1%">
-                        <div class="alert alert-info hide" role="alert" id="info"><strong id="result"></strong><span id="resultData"></span></div>
+                        <div class="alert alert-info hide" role="alert" id="info"><strong id="result"></strong><span
+                                id="resultData"></span></div>
                         <div class="alert alert-danger hide" role="alert" id="completeShow">
                             <strong id="complete"></strong>complete info
                         </div>
@@ -54,6 +55,34 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-primary">
+                <div class="panel-title">
+                    <p class="text-center">其他方法</p>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <p class="text-center">$.get(),$.post()方法常用，可自行查看源码，样例为load()方法</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-default" id="load">load请求</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="loadDom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

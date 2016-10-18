@@ -25,6 +25,8 @@ var jqueryAjax = function () {
                 }
             }).done(function (data) {
                 alert(data.info);
+            }).fail(function (data) {
+                alert("fail");
             })
         });
         $("#ajaxPost").on('click', function () {
@@ -82,7 +84,7 @@ var jqueryAjax = function () {
                 dataType: 'json',
                 success: function (data) {
                     $("#result").text("我是success");
-                    $("#resultData").text(data.info);
+                    // $("#resultData").text(data.info);
                     $('div.alert-info').removeClass("hide");
                 },
                 error: function (data, XMLHttpRequest, textStatus, errorThrown) {
@@ -95,7 +97,7 @@ var jqueryAjax = function () {
                     $('div.alert-danger').removeClass("hide");
                 }
             }).done(function (data) {
-                alert(data.info);
+                alert("HEAD");
             })
         });
 
@@ -107,7 +109,7 @@ var jqueryAjax = function () {
                 beforeSend: function (XMLHttpRequest) {
                     // 禁用按钮防止重复提交
                     // $("#submit").attr({ disabled: "disabled" });
-                    XMLHttpRequest.setAttribute("aa","aa");
+                    // XMLHttpRequest.setRequestHeader("Accept-Language", "en-cus");
                 },
                 success: function (data) {
                     $("#result").text("我是success");
@@ -127,6 +129,10 @@ var jqueryAjax = function () {
                 alert(data.info);
             })
         });
+
+        $("#load").on('click', function () {
+            $("#loadDom").load("load.css");
+        })
     };
 
     return {
