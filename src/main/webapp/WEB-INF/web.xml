@@ -46,4 +46,24 @@
         <url-pattern>/xmlhttprequest</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>jqueryAjax</servlet-name>
+        <servlet-class>com.infitecs.xmlrequest.servlet.JqueryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>jqueryAjax</servlet-name>
+        <url-pattern>/jqueryAjax</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ajax</servlet-name>
+        <servlet-class>com.infitecs.xmlrequest.servlet.AjaxServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ajax</servlet-name>
+        <url-pattern>/ajaxRequest</url-pattern>
+    </servlet-mapping>
+
 </web-app>

@@ -11,7 +11,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>主页</title>
+    <title>XMLHttpRequest方式请求数据</title>
     <link rel="stylesheet" href="<c:url value="/bower_components/bootstrap/dist/css/bootstrap.min.css"/> ">
     <link rel="stylesheet" href="<c:url value="/bower_components/fontawesome/css/font-awesome.min.css"/> ">
     <link rel="stylesheet" href="<c:url value="/bower_components/DataTables/media/css/jquery.dataTables.css"/> ">

@@ -38,7 +38,7 @@
 
         <p>jQuery 对 Ajax 操作进行了封装, 在 jQuery 中最底层的方法时 $.ajax(), 第二层是 load(), $.get() 和 $.post(), 第三层是 $.getScript() 和 $.getJSON()。</p><br>
 
-        <p><a class="button button-rounded  button-flat-primary" href="loader/fileLoader" role="button">查看示例</a></p>
+        <p><a class="button button-rounded  button-flat-primary" href="jqueryAjax" role="button">查看示例</a></p>
     </div>
 </div>
 </div>
