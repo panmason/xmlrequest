@@ -31,7 +31,7 @@
 
         <p>XMLHttpRequest最早在IE5中以ActiveX对象的形式实现的。现在，FireFox、Safari、Opera、Konqueror和IE都实现了XMLHttpRequest对象的行为。XMLHttpRequest不是一个W3C的标准，所有可以采用多种方法使用JavaScript来创建XMLHttpRequest的对象，IE把XMLHttpRequest作为一个ActiveX的对象。 </p>
 
-        <p><a class="button button-rounded  button-flat-primary" href="loader/guideFileLoader" role="button">查看示例</a></p>
+        <p><a class="button button-rounded  button-flat-primary" href="xmlhttprequest" role="button">查看示例</a></p>
     </div>
     <div class="col-md-6">
         <h2><i class="icon-flag"></i> jQuery Ajax</h2>

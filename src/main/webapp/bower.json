@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "3.3.6",
     "fontawesome": "4.6.3",
-    "jquery": "1.12.1"
+    "jquery": "1.12.1",
+    "DataTables": "1.10.11"
   }
 }
