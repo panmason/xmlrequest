@@ -109,7 +109,7 @@ var jqueryAjax = function () {
                 beforeSend: function (XMLHttpRequest) {
                     // 禁用按钮防止重复提交
                     // $("#submit").attr({ disabled: "disabled" });
-                    // XMLHttpRequest.setRequestHeader("Accept-Language", "en-cus");
+                    XMLHttpRequest.setRequestHeader("Accept-Language", "en-cus");
                 },
                 success: function (data) {
                     $("#result").text("我是success");

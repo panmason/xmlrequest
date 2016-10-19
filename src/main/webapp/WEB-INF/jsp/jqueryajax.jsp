@@ -35,7 +35,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-md-6">
-                            <p class="text-center">常用get方式向服务器请求一个字符串，返回后将在子啊页面显示</p>
+                            <p class="text-center">常用get方式向服务器请求一个字符串，返回后将在页面显示</p>
                         </div>
                         <div class="col-md-6">
                             <button type="button" class="btn btn-default" id="ajaxGet">GET请求</button>
