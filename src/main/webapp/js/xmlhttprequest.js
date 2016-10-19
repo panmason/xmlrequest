@@ -29,8 +29,8 @@ var xmlhttprequest = function () {
         }
 
         xhr.onreadystatechange = callback;
-        xhr.open("POST","xmlhttprequest?s=" + new Date(), true);
-        xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+        xhr.open("POST", "xmlhttprequest?s=" + new Date(), true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xhr.send(null);
     }
 
@@ -38,15 +38,15 @@ var xmlhttprequest = function () {
         if (xhr.readyState == 4) {
             if (xhr.status == 200) {
                 dataSet = JSON.parse(xhr.responseText);
-                $('#demo').html( '<table cellpadding="0" cellspacing="0" border="0" class="display" id="example"></table>' );
+                $('#demo').html('<table cellpadding="0" cellspacing="0" border="0" class="display table table-responsive table-striped" id="example"></table>');
                 var $table = $("#example");
                 $table.DataTable({
                     "data": dataSet,
                     "aoColumns": [
-                        { "sTitle": "Engine" },
-                        { "sTitle": "Browser" },
-                        { "sTitle": "Platform" },
-                        { "sTitle": "Version"},
+                        {"sTitle": "Engine"},
+                        {"sTitle": "Browser"},
+                        {"sTitle": "Platform"},
+                        {"sTitle": "Version"},
                         {"sTitle": "Grade"}
                     ]
                 })
