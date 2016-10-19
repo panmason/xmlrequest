@@ -108,5 +108,8 @@ a:hover {
 .jumbotron {
     background: -moz-linear-gradient(top, #1495b7,#fff );
     background: -webkit-gradient(linear,top, left, color-stop(0, #1495b7), color-stop(1, #fff));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0065B5', endColorstr='#fff', GradientType='0');
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#1495b7), to(#fff));
+    background: -o-linear-gradient(top, #1495b7, #fff);
+    background: -ms-linear-gradient(top, #1495b7, #fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr='#0065B5',endcolorstr='#fff',gradientType=1);
 }
